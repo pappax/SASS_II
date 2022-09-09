@@ -26,7 +26,7 @@
       align-items: center;
       width: 100%;
       img {
-        //@include imagen(200px);
+        @include im(200px);
         /*margin-left: 5px;
         width: 200px;
         height: 200px;
