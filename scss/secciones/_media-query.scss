@@ -1,0 +1,229 @@
+@media (min-width: 768px) {
+  body {
+    font-size: medium;
+  }
+
+  .header {
+    align-items: flex-end;
+    div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 80px;
+      }
+      h1 {
+        font-size: xx-large;
+      }
+    }
+    nav {
+      ul {
+        flex-direction: row;
+        li {
+          background-color: #fdcb00;
+          padding: 5px;
+          margin: 5px;
+        }
+      }
+    }
+  }
+
+  .container_index {
+    .Section2 {
+      div {
+        img {
+          margin-left: 5px;
+          width: 400px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 70% 10%;
+        }
+        p {
+          line-height: 40px;
+        }
+      }
+    }
+
+    .Section4 {
+      div {
+        img {
+          margin-left: 5px;
+          width: 400px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 40% 10%;
+        }
+        div {
+          p {
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+  /*REGISTRO*/
+  .container_registro {
+    .Section2_r {
+      table {
+        font-size: medium;
+      }
+    }
+  }
+
+  /*SOFTWARE Y PROYECTO*/
+
+  .container_software_proyectos {
+    .Section3_syp {
+      div {
+        img {
+          width: 400px;
+          height: 400px;
+          object-position: 0% 10%;
+        }
+        div {
+          line-height: 40px;
+        }
+      }
+    }
+
+    .Section5_syp {
+      div {
+        img {
+          width: 400px;
+          height: 400px;
+          object-position: 0% 10%;
+        }
+        div {
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}
+
+/*Dispositivos grandes*/
+@media (min-width: 1024px) {
+  body {
+    font-size: large;
+  }
+
+  /*HEADER*/
+
+  .header {
+    nav {
+      ul {
+        li {
+          background-color: #fdcb00;
+          padding: 5px;
+          margin: 5px 15px 5px 15px;
+        }
+      }
+    }
+  }
+  div {
+    img {
+      height: auto;
+    }
+  }
+
+  /*INDEX*/
+
+  .container_index {
+    .Section2 {
+      div {
+        width: 1024px;
+        img {
+          width: 600px;
+          height: 600px;
+        }
+        p {
+          line-height: 50px;
+        }
+      }
+    }
+
+    .Section4 {
+      div {
+        width: 1024px;
+        img {
+          width: 600px;
+          height: 600px;
+          div {
+            p {
+              margin: 5px;
+              padding: 5px;
+              line-height: 50px;
+            }
+            ul {
+              line-height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*REGISTRO*/
+  .container_registro {
+    .Section2_r {
+      table {
+        width: 1024px;
+      }
+    }
+  }
+
+  /*SOFTWARE Y PROYECTO*/
+
+  .container_software_proyectos {
+    .Section2_syp {
+      margin: 10px;
+    }
+
+    .Section3_syp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+      background-color: #d9d9d9;
+      div {
+        width: 1024px;
+        img {
+          width: 600px;
+          height: 600px;
+          object-position: 0% 10%;
+        }
+        div {
+          p {
+            line-height: 50px;
+          }
+        }
+      }
+    }
+
+    .Section4_syp {
+      margin: 10px;
+    }
+
+    .Section5_syp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+      background-color: #d9d9d9;
+      div {
+        width: 1024px;
+        img {
+          width: 600px;
+          height: 600px;
+          object-position: 0% 10%;
+        }
+        div {
+          p {
+            line-height: 50px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.container_registro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 33.32vh 11vh auto 11vh;
+  grid-template-areas:
+    "header header header header"
+    "Section1 Section1 Section1 Section1"
+    "Section2_r Section2_r Section2_r Section2_r"
+    "Footer Footer Footer Footer";
+  width: 100%;
+  height: 100%;
+
+  .Section1 {
+    @extend %seccion1;
+  }
+
+  .Section2_r {
+    grid-area: Section2_r;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    margin-bottom: 10px;
+    align-items: center;
+
+    table {
+      border-collapse: collapse;
+      font-size: x-small;
+
+      tr {
+        &:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+
+        &:hover {
+          background-color: #ddd;
+        }
+
+        td {
+          @extend %estilo_tabla;
+        }
+
+        th {
+          @extend %estilo_tabla;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #04aa6d;
+          color: white;
+        }
+      }
+    }
+  }
+}

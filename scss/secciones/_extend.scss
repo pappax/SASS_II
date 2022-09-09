@@ -1,0 +1,23 @@
+//EXTEND
+
+%estilo_tabla {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 5%;
+}
+
+%seccion1 {
+  grid-area: Section1;
+  background-color: #b17f00;
+  padding: 10px;
+  margin: 10px;
+}
+
+%seccion2 {
+  grid-area: Section2;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
