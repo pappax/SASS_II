@@ -1,0 +1,43 @@
+INDEX
+
+    Se incorporo la siguiente descripcion y las keywords.
+
+        "description"="PAGINA DE PRESENTACION DE LA LOCALIDAD Y DE LOS EQUIPOS DE LU3PGA">
+        "keywords"="LU3PGA, RADIOAFICIONADO, SANJUAN, HAM, EQUIPOS, RADIO">
+
+    Tambien se adptaron las imagenes, para disminuir su peso sin perder calidad.
+
+REGISTRO
+
+    Se incorporo la siguiente descripcion y las keywords.
+
+        "description"="LISTADO DE CONTACTOS DE RADIO RECIENTES">
+        "keywords"="REGISTRO, CONTACTO, FRECUENCIA, RADIOAFICIONADO, HAM, BANDA">
+
+SOFTWARE
+
+    Se incorporo la siguiente descripcion y las keywords.
+
+        "description"="PROGRAMAS PARA PROGRAMACION DE RADIOS Y REGISTROS DE RADIOAFICIONADOS">
+        "keywords"="SOFTWARE, RADIOAFICIONADO, PROGRAMACION, HAM, PROGRAMA">
+
+    Tambien se adptaron las imagenes, para disminuir su peso sin perder calidad.
+
+PROYECTOS
+
+    Se incorporo la siguiente descripcion y las keywords.
+
+        "description"="PROYECTOS ELECTRONICOS PARA HOBBISTAS">
+        "keywords""LU3PGA, PROYECTOS, ELECTRONICA, RADIOAFICIONADO, COMUNICACIONES">
+
+    Tambien se adptaron las imagenes, para disminuir su peso sin perder calidad.
+
+CONTACTO
+
+    Se incorporo la siguiente descripcion y las keywords.
+
+    "description"="FORMULARIO DE CONTACTO PARA CONSULTAS">
+    "keywords"="CONTACTO, CONSULTAS, QSL, SUGERENCIAS, DUDAS">
+
+
+No se borraron las imagenes originales para que se vean las modificaiones realizadas.
