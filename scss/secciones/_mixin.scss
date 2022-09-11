@@ -1,0 +1,9 @@
+//MIXIN
+
+@mixin im($margin,$width,$height,$x,$y) {
+  margin-left: $margin;
+  width: $width;
+  height: $height;
+  object-fit: cover;
+  object-position: $x $y;
+}

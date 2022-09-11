@@ -21,13 +21,5 @@
   flex-direction: column;
 }
 
-//MIXIN
 
-@mixin im($n) {
-  margin-left: 5px;
-  width: $n;
-  height: 200px;
-  object-fit: cover;
-  object-position: 70% 10%;
-}
 

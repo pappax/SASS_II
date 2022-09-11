@@ -26,12 +26,7 @@
       align-items: center;
       width: 100%;
       img {
-        @include im(200px);
-        /*margin-left: 5px;
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        object-position: 70% 10%;*/
+        @include im(5px, 200px, 200px, 70%, 10%);
         &:hover {
           transform: scale(1.3);
         }
@@ -79,11 +74,7 @@
         }
       }
       img {
-        margin-right: 5px;
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        object-position: 40% 10%;
+        @include im(5px, 200px, 200px, 40%, 10%);
         &:hover {
           transform: scale(1.3);
         }
