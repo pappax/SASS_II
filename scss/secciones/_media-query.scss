@@ -5,23 +5,23 @@
 
   .header {
     align-items: flex-end;
+
     div {
       height: 100%;
       display: flex;
       align-items: center;
 
-      img {
-        height: 80px;
-      }
       h1 {
         font-size: xx-large;
       }
     }
+
     nav {
       ul {
         flex-direction: row;
+
         li {
-          background-color: #fdcb00;
+          background-color: #ffc107;
           padding: 5px;
           margin: 5px;
         }
@@ -33,12 +33,9 @@
     .Section2 {
       div {
         img {
-          margin-left: 5px;
-          width: 400px;
-          height: 400px;
-          object-fit: cover;
-          object-position: 70% 10%;
+          @include im(5px, 400px, 400px, 70%, 10%);
         }
+
         p {
           line-height: 40px;
         }
@@ -48,12 +45,9 @@
     .Section4 {
       div {
         img {
-          margin-left: 5px;
-          width: 400px;
-          height: 400px;
-          object-fit: cover;
-          object-position: 40% 10%;
+          @include im(5px, 400px, 400px, 40%, 10%);
         }
+
         div {
           p {
             line-height: 40px;
@@ -62,6 +56,7 @@
       }
     }
   }
+
   /*REGISTRO*/
   .container_registro {
     .Section2_r {
@@ -81,6 +76,7 @@
           height: 400px;
           object-position: 0% 10%;
         }
+
         div {
           line-height: 40px;
         }
@@ -94,6 +90,7 @@
           height: 400px;
           object-position: 0% 10%;
         }
+
         div {
           line-height: 40px;
         }
@@ -114,16 +111,11 @@
     nav {
       ul {
         li {
-          background-color: #fdcb00;
+          background-color: #ffc107;
           padding: 5px;
           margin: 5px 15px 5px 15px;
         }
       }
-    }
-  }
-  div {
-    img {
-      height: auto;
     }
   }
 
@@ -133,10 +125,12 @@
     .Section2 {
       div {
         width: 1024px;
+
         img {
           width: 600px;
           height: 600px;
         }
+
         p {
           line-height: 50px;
         }
@@ -146,6 +140,7 @@
     .Section4 {
       div {
         width: 1024px;
+
         img {
           width: 600px;
           height: 600px;
@@ -155,6 +150,7 @@
               padding: 5px;
               line-height: 50px;
             }
+
             ul {
               line-height: 40px;
             }
@@ -186,13 +182,16 @@
       align-items: center;
       margin-bottom: 10px;
       background-color: #d9d9d9;
+
       div {
         width: 1024px;
+
         img {
           width: 600px;
           height: 600px;
           object-position: 0% 10%;
         }
+
         div {
           p {
             line-height: 50px;
@@ -211,18 +210,30 @@
       align-items: center;
       margin-bottom: 10px;
       background-color: #d9d9d9;
+
       div {
         width: 1024px;
+
         img {
           width: 600px;
           height: 600px;
           object-position: 0% 10%;
         }
+
         div {
           p {
             line-height: 50px;
           }
         }
+      }
+    }
+  }
+
+  /*CONTACTO*/
+  .container_contacto {
+    .Section2 {
+      .formulario {
+        width: 400px;
       }
     }
   }

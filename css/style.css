@@ -3,12 +3,14 @@
   padding: 8px;
   width: 5%; }
 
+/*Titulo 1*/
 .container_index .Section1, .container_registro .Section1, .container_software_proyectos .Section1, .container_contacto .Section1 {
   grid-area: Section1;
   background-color: #b17f00;
   padding: 10px;
   margin: 10px; }
 
+/*Contenedor*/
 .container_index .Section2, .container_contacto .Section2 {
   grid-area: Section2;
   background-color: #d9d9d9;
@@ -16,6 +18,8 @@
   align-items: center;
   flex-direction: column; }
 
+/*Imagenes*/
+/*Formateo*/
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +29,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif; }
 
+/*Elimino subrrayado links*/
 a {
   text-decoration: none;
   color: black; }
@@ -32,37 +37,24 @@ a {
 /*HEADER*/
 .header {
   grid-area: header;
-  background-color: #fdb600;
+  background-color: #ffc107;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0px 15px 0px; }
-  .header div {
-    display: flex; }
-    .header div img {
-      height: 60px;
-      animation: pulsing 0.5s 1; }
-    .header div h1 {
-      display: flex;
-      font-size: medium;
-      flex-direction: column;
-      justify-content: center; }
-  .header nav ul {
-    display: flex;
-    list-style: none;
-    width: auto;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 5px; }
-    .header nav ul li {
-      background-color: #fdcb00;
-      padding: 2px;
-      margin: 2px;
-      border-radius: 10px;
-      background: linear-gradient(#fdc200, #ffbb00) center/100% 0px no-repeat;
-      transition: 0.5s all linear; }
-      .header nav ul li:hover {
-        background-size: 100% 100%; }
+  padding: 10px 0px 10px 0px; }
+  .header .nav .div .a .img {
+    animation: pulsing 0.5s 1; }
+
+/*Animaciones*/
+@keyframes pulsing {
+  0% {
+    transform: scale(0.25, 0.25); }
+  25% {
+    transform: scale(0.5, 0.5); }
+  50% {
+    transform: scale(0.75, 0.75); }
+  100% {
+    transform: scale(1, 1); } }
 
 /*INDEX*/
 .container_index {
@@ -72,7 +64,9 @@ a {
   grid-template-areas: "header header header header" "Section1 Section1 Section1 Section1" "Section2 Section2 Section2 Section2" "Section3 Section3 Section3 Section3" "Section4 Section4 Section4 Section4" "Footer Footer Footer Footer";
   width: 100%;
   height: 100%;
+  /*Titulo 1*/
   /*Imagen y texto - 1 card*/
+  /*Titulo 2*/
   /*Imagen y texto - 2 card*/ }
   .container_index .Section2 div {
     background-color: #fde000;
@@ -135,7 +129,9 @@ a {
   grid-template-rows: 33.32vh 11vh auto 11vh;
   grid-template-areas: "header header header header" "Section1 Section1 Section1 Section1" "Section2_r Section2_r Section2_r Section2_r" "Footer Footer Footer Footer";
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  /*Titulo 1*/
+  /*Contenedor tabla*/ }
   .container_registro .Section2_r {
     grid-area: Section2_r;
     background-color: #d9d9d9;
@@ -164,7 +160,12 @@ a {
   grid-template-rows: 33.32vh 11vh auto auto auto auto 11vh;
   grid-template-areas: "header header header header" "Section1 Section1 Section1 Section1" "Section2_syp Section2_syp Section2_syp Section2_syp" "Section3_syp Section3_syp Section3_syp Section3_syp" "Section4_syp Section4_syp Section4_syp Section4_syp" "Section5_syp Section5_syp Section5_syp Section5_syp" "Footer Footer Footer Footer";
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  /*Titulo 1*/
+  /*Subtitulo 2*/
+  /*Contenedor 1*/
+  /*Subtitulo 2*/
+  /*Contenedor 2*/ }
   .container_software_proyectos .Section2_syp {
     grid-area: Section2_syp;
     margin: 0px 25px 0px 25px;
@@ -240,7 +241,8 @@ a {
   grid-template-rows: 33.32vh 11vh auto 11vh;
   grid-template-areas: "header header header header" "Section1 Section1 Section1 Section1" "Section2 Section2 Section2 Section2" "Footer Footer Footer Footer";
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  /*Titulo 1*/ }
   .container_contacto .Section2 .formulario {
     width: 300px;
     padding: 50px;
@@ -257,7 +259,8 @@ a {
       border: 1px solid #f6f6f6;
       border-radius: 3px;
       background-color: #f6f6f6;
-      margin: 8px 0; }
+      margin: 8px 0;
+      width: 100%; }
     .container_contacto .Section2 .formulario input[type="submit"] {
       width: 100%;
       padding: 8px 16px;
@@ -307,14 +310,12 @@ a {
       height: 100%;
       display: flex;
       align-items: center; }
-      .header div img {
-        height: 80px; }
       .header div h1 {
         font-size: xx-large; }
     .header nav ul {
       flex-direction: row; }
       .header nav ul li {
-        background-color: #fdcb00;
+        background-color: #ffc107;
         padding: 5px;
         margin: 5px; }
   .container_index .Section2 div img {
@@ -356,11 +357,9 @@ a {
     font-size: large; }
   /*HEADER*/
   .header nav ul li {
-    background-color: #fdcb00;
+    background-color: #ffc107;
     padding: 5px;
     margin: 5px 15px 5px 15px; }
-  div img {
-    height: auto; }
   /*INDEX*/
   .container_index .Section2 div {
     width: 1024px; }
@@ -415,4 +414,7 @@ a {
         height: 600px;
         object-position: 0% 10%; }
       .container_software_proyectos .Section5_syp div div p {
-        line-height: 50px; } }
+        line-height: 50px; }
+  /*CONTACTO*/
+  .container_contacto .Section2 .formulario {
+    width: 400px; } }

@@ -14,23 +14,28 @@
   width: 100%;
   height: 100%;
 
+  /*Titulo 1*/
   .Section1 {
     @extend %seccion1;
   }
+  
   /*Imagen y texto - 1 card*/
   .Section2 {
     @extend %seccion2;
+
     div {
       background-color: #fde000;
       display: flex;
       align-items: center;
       width: 100%;
+
       img {
         @include im(5px, 200px, 200px, 70%, 10%);
         &:hover {
           transform: scale(1.3);
         }
       }
+
       p {
         margin: 5px;
         padding: 5px;
@@ -39,6 +44,7 @@
     }
   }
 
+  /*Titulo 2*/
   .Section3 {
     grid-area: Section3;
     background-color: #b17f00;
@@ -54,6 +60,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
     div {
       background-color: #fde000;
       display: flex;
@@ -61,6 +68,7 @@
       width: 100%;
       flex-direction: row-reverse;
       justify-content: space-around;
+
       div {
         background-color: #fde000;
         display: flex;
@@ -68,11 +76,13 @@
         width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
+
         p {
           margin: 5px;
           padding: 5px;
         }
       }
+
       img {
         @include im(5px, 200px, 200px, 40%, 10%);
         &:hover {

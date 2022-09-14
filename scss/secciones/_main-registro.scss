@@ -10,10 +10,12 @@
   width: 100%;
   height: 100%;
 
+  /*Titulo 1*/
   .Section1 {
     @extend %seccion1;
   }
-
+  
+  /*Contenedor tabla*/
   .Section2_r {
     grid-area: Section2_r;
     background-color: #d9d9d9;
