@@ -46,17 +46,6 @@ a {
   .header .nav .div .a .img {
     animation: pulsing 0.5s 1; }
 
-/*Animaciones*/
-@keyframes pulsing {
-  0% {
-    transform: scale(0.25, 0.25); }
-  25% {
-    transform: scale(0.5, 0.5); }
-  50% {
-    transform: scale(0.75, 0.75); }
-  100% {
-    transform: scale(1, 1); } }
-
 /*INDEX*/
 .container_index {
   display: grid;
@@ -69,26 +58,6 @@ a {
   /*Imagen y texto - 1 card*/
   /*Titulo 2*/
   /*Imagen y texto - 2 card*/ }
-  .container_index .Section2 {
-    /*div {
-      background-color: #fde000;
-      display: flex;
-      align-items: center;
-      width: 100%;
-
-      img {
-        @include im(5px, 200px, 200px, 70%, 10%);
-        &:hover {
-          transform: scale(1.3);
-        }
-      }
-
-      p {
-        margin: 5px;
-        padding: 5px;
-        width: 100%;
-      }
-    }*/ }
   .container_index .Section3 {
     grid-area: Section3;
     background-color: #b17f00;
@@ -101,37 +70,7 @@ a {
     padding-top: 20px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    /*
-    div {
-      background-color: #fde000;
-      display: flex;
-      align-items: center;
-      width: 100%;
-      flex-direction: row-reverse;
-      justify-content: space-around;
-
-      div {
-        background-color: #fde000;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-        p {
-          margin: 5px;
-          padding: 5px;
-        }
-      }
-
-      img {
-        @include im(5px, 200px, 200px, 40%, 10%);
-        &:hover {
-          transform: scale(1.3);
-        }
-      }
-    }*/ }
+    flex-direction: column; }
 
 .container_registro {
   display: grid;
@@ -328,28 +267,6 @@ a {
         background-color: #ffc107;
         padding: 5px;
         margin: 5px; }
-  .container_index .Section2 {
-    /*div {
-        img {
-          @include im(5px, 400px, 400px, 70%, 10%);
-        }
-
-        p {
-          line-height: 40px;
-        }
-      }*/ }
-  .container_index .Section4 {
-    /*div {
-        img {
-          @include im(5px, 400px, 400px, 40%, 10%);
-        }
-
-        div {
-          p {
-            line-height: 40px;
-          }
-        }
-      }*/ }
   /*REGISTRO*/
   .container_registro .Section2_r table {
     font-size: medium; }
@@ -376,41 +293,6 @@ a {
     background-color: #ffc107;
     padding: 5px;
     margin: 5px 15px 5px 15px; }
-  /*INDEX*/
-  .container_index .Section2 {
-    /*div {
-        width: 1024px;
-        display: flex;
-
-        img {
-          width: 600px;
-          height: 600px;
-        }
-
-        p {
-          line-height: 50px;
-        }
-      }*/ }
-  .container_index .Section4 {
-    /*div {
-        width: 1024px;
-
-        img {
-          width: 600px;
-          height: 600px;
-          div {
-            p {
-              margin: 5px;
-              padding: 5px;
-              line-height: 50px;
-            }
-
-            ul {
-              line-height: 40px;
-            }
-          }
-        }
-      }*/ }
   /*REGISTRO*/
   .container_registro .Section2_r table {
     width: 1024px; }
@@ -450,3 +332,14 @@ a {
   /*CONTACTO*/
   .container_contacto .Section2 .formulario {
     width: 400px; } }
+
+/*Animaciones*/
+@keyframes pulsing {
+  0% {
+    transform: scale(0.25, 0.25); }
+  25% {
+    transform: scale(0.5, 0.5); }
+  50% {
+    transform: scale(0.75, 0.75); }
+  100% {
+    transform: scale(1, 1); } }
